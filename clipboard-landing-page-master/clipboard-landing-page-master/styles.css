@@ -16,6 +16,10 @@ p {
 
 /* Title */
 
+#title {
+  padding-bottom: 15%
+}
+
 .title-text {
   padding: 0.5% 30% 1%;
 }
@@ -27,13 +31,16 @@ p {
 .header {
   background-image: url(images/bg-header-desktop.png);
   background-repeat: no-repeat;
+  height: 363px;
   background-size: cover;
+  background-color: #fff;
+  background-position: center;
 }
 
 .download-button {
     color: #fff;
     margin: 0 1% 10%;
-    border-radius: 25px
+    border-radius: 25px;
 }
 
 .dl-ios {
